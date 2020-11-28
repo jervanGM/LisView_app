@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="@string/menu_tareas" />
+
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_day_and_night_png__512"
+            android:title="@string/menu_ajustes" />
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="@string/guardar" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/menu_info"/>
+
+        </menu>
+    </item>
+
+</menu>
